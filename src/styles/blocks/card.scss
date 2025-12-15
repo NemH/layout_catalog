@@ -41,9 +41,12 @@
       letter-spacing: 0;
 
       background-color: $thirthd-color;
-      &:hover {
+
+      &[data-qa='card-hover']:hover {
         color: $thirthd-color;
         background-color: #fff;
+        transform: scale(1.2);
+        transition: 300ms;
       }
     }
   }
